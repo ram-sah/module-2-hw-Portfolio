@@ -1,0 +1,85 @@
+/* All Pages body styles*/
+body{               
+    height: 100%;
+    background-color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+
+/* Nav class in all pages for Name style */
+.navbar-light .navbar-brand{   
+    background-color: teal;    
+    padding: 15px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left:80px;
+    color: white;
+}
+
+/* submit Button of contact page */
+.button {
+    background-color: teal; 
+    border: white;             
+    margin: 0px;
+    color: white;
+    margin: auto;
+    padding: 10px 20px; 
+}
+
+  /* container class of contact page */
+  .container{
+    background-color: #ffffff;
+    width: 800px;
+    height: 50%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+/* heading h3 of all  pages */
+h3{
+    color: teal;
+    border-bottom-style: inset;               
+    border-bottom-width: 2px;
+    padding: 30px 5px;
+    margin-left: 0px;
+}
+
+/*section from contact page  */       
+section{
+    margin-top: 20px;
+}
+
+/* footer of all pages*/
+footer{
+    width:100%;
+    text-align: center;
+    background-color: #29292b;
+    border-top-style: solid;
+    border-top-color: teal;
+    border-top-width: 8px;
+    color: white;
+    font-size: 77%;
+    padding-top:.3em;
+    padding-bottom:.3em;
+    margin-top: 30%;
+}
+/*portfolio picture floating left */
+.float-img {
+    float: left;   
+    margin: 15px;
+}
+/* ID for about page paragraph */
+#center {
+    font-size: 18px;
+    text-align: justify;    
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;   
+    left: 30px;
+    width: 350px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+  }
