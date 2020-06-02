@@ -1,6 +1,7 @@
 /* All Pages body styles*/
 body{               
     height: 100%;
+    width: 100%;
     background-color: #eeeeee;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; 
@@ -27,13 +28,16 @@ body{
     padding: 10px 20px; 
 }
 
-  /* container class of contact page */
+  /* container class for all pages Sticky Footer styles added */
   .container{
     background-color: #ffffff;
     width: 800px;
-    height: 50%;
+    height: 50%;    
     margin-left: 7%;
     margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
 }
 
 /* heading h3 of all  pages */
@@ -50,7 +54,7 @@ section{
     margin-top: 20px;
 }
 
-/* footer of all pages*/
+/* footer of all pages  Sticky Footer styles added */
 footer{
     width:100%;
     text-align: center;
@@ -59,10 +63,10 @@ footer{
     border-top-color: teal;
     border-top-width: 8px;
     color: white;
-    font-size: 77%;
-    padding-top:.3em;
+    font-size: 16px;    
     padding-bottom:.3em;
     margin-top: 30%;
+    padding-top: 60px;
 }
 /*portfolio picture floating left */
 .float-img {
@@ -74,12 +78,24 @@ footer{
     font-size: 18px;
     text-align: justify;    
 }
+/* Added text-block class for pictures text of portfolio Page*/
 .text-block {
     position: absolute;
     bottom: 20px;   
     left: 30px;
-    width: 350px;
+    width: 320px;
     background-color: teal;
     color: white;
     text-align: center;
+  }
+  a:link {
+    color: white;   
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;   
+    text-decoration: none;
+  }
+  a:hover {
+      color: red;
   }
