@@ -28,18 +28,6 @@ body{
     padding: 10px 20px; 
 }
 
-  /* container class for all pages Sticky Footer styles added */
-  .container{
-    background-color: #ffffff;
-    width: 800px;
-    height: 50%;    
-    margin-left: 7%;
-    margin-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    
-}
-
 /* heading h3 of all  pages */
 h3{
     color: teal;
@@ -88,14 +76,92 @@ footer{
     color: white;
     text-align: center;
   }
-  a:link {
-    color: white;   
-    text-decoration: none;
-  }
-  a:visited {
+  /*added link design on portfolio page*/
+  a:link, a:visited {
     color: white;   
     text-decoration: none;
   }
   a:hover {
       color: red;
   }
+
+/* Extra Small devices (landscape phones, 250px and up)*/
+@media (min-width: 250px) { 
+    .container {
+        background-color: #ffffff;
+        width: 80%;
+        height: 50%;    
+        margin-left: 7%;
+        margin-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;    
+    }
+
+ /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .container {
+        background-color: #ffffff;
+        width: 80%;
+        height: 50%;    
+        margin-left: 7%;
+        margin-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;    
+    }
+    /*
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 0rem;
+    }
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: none;
+        list-style: none;
+    }*/
+} 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container{
+        background-color: #ffffff;
+        width: 95%;
+        height: 50%;    
+        margin-left: 7%;
+        margin-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;    
+    } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container{
+        background-color: #ffffff;
+        width: 75%;
+        height: 50%;    
+        margin-left: 7%;
+        margin-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;    
+    } 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container{
+        background-color: #ffffff;
+        width: 60%;
+        height: 50%;    
+        margin-left: 7%;
+        margin-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;    
+    }
+} 
