@@ -85,14 +85,19 @@ footer{
   a:hover {
       color: red;
   }
+  /*Added form-group class for contact page */
+  .form-group{
+      font-size: 20px;
+      font: bold;
+  }
 
-/* Extra Small devices (landscape phones, 250px and up)*/
+/* Extra Small devices (portable small phones, 250px and up)*/
 @media (min-width: 250px) { 
     .container {
         background-color: #ffffff;
         width: 80%;
         height: 50%;    
-        margin-left: 7%;
+        margin-left: 10%;
         margin-top: 5%;
         padding-left: 3%;
         padding-right: 3%;    
@@ -110,25 +115,6 @@ footer{
         padding-right: 3%;    
     }
 }
-    /*
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 1rem;
-        padding-left: 0rem;
-    }
-    .nav-link {
-        display: block;
-        padding: .5rem 1rem;
-    }
-    a:-webkit-any-link {
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .navbar-nav {
-        display: none;
-        list-style: none;
-    }
-} */
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .container{
