@@ -19,7 +19,7 @@ header> .navbar-light .navbar-brand{
 }
 
 /* submit Button of contact page */
-.button {
+    .button {
     background-color: teal; 
     border: white;             
     margin: 0px;
@@ -60,19 +60,20 @@ footer{
 /*portfolio picture floating left */
 .float-img {
     float: left;   
-    margin: 15px;
+    margin: 15px 20px;
 }
 /* ID for about page paragraph */
 #center {
     font-size: 18px;
-    text-align: justify;    
+    text-align: justify;
+    margin: 5px;   
 }
 /* Added text-block class for pictures text of portfolio Page*/
 .text-block {
     position: absolute;
     bottom: 20px;   
-    left: 30px;
-    width: 320px;
+    left: 35px;
+    width: 300px;
     background-color: teal;
     color: white;
     text-align: center;
@@ -85,23 +86,32 @@ footer{
   a:hover {
       color: red;
   }
-  /*Added form-group class for contact page */
-  .form-group{
-      font-size: 20px;
-      font: bold;
-  }
-
-/* Extra Small devices (portable small phones, 250px and up)*/
+  
+/* Extra Small devices (extra small phones, 250px and up)*/
 @media (min-width: 250px) { 
     .container {
         background-color: #ffffff;
-        width: 80%;
+        width: 95%;
         height: 50%;    
-        margin-left: 10%;
+        margin-left: 2%;
         margin-top: 5%;
-        padding-left: 3%;
-        padding-right: 3%;    
+        padding-left: 5%;
+        padding-right: 5%;    
     }
+    .float-img {
+        float: left;   
+        margin: 15px 2px;
+    }
+    .text-block {
+        position: absolute;
+        bottom: 20px;   
+        left: 17px;
+        width: 300px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+      }
+      
 }
  /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
